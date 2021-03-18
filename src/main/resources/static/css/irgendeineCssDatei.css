@@ -1,0 +1,40 @@
+body * {
+    font-family: "Times New Roman";
+    color: black;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fliesstext{
+    text-align: initial;
+}
+.right{
+    width: 47%;
+    float:right;
+    height:fit-content;
+    background: lightblue;
+    margin:10px
+}
+.left{
+    width: 50%;
+    float:left;
+    height:fit-content;
+    background:lightblue;
+    margin:10px
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.setclear { clear: both; }
+.scoop{
+    color: blue;
+}
+a{
+    filter: brightness(0.7) hue-rotate(90deg) sepia(10) blur(10);
+}
